@@ -1,0 +1,37 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.28.0.12:8501
+  External URL: http://35.203.150.61:8501
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.11/dist-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m121[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.11/dist-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m640[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/content/[0m[1;33mapp.py[0m:[94m644[0m in [92m<module>[0m                                                      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m641 [0m                                                                               [31m [0m
+[31m [0m   [2m642 [0m[2m# Run the app[0m                                                                  [31m [0m
+[31m [0m   [2m643 [0m[94mif[0m [91m__name__[0m == [33m"[0m[33m__main__[0m[33m"[0m:                                                     [31m [0m
+[31m [0m [31m❱ [0m644 [2m│   [0m[1;4mmain()[0m                                                                     [31m [0m
+[31m [0m   [2m645 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/content/[0m[1;33mapp.py[0m:[94m591[0m in [92mmain[0m                                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m588 [0m[2m│   │   │   [0mst.subheader([33mf[0m[33m"[0m[33m{[0mselected_domain[33m}[0m[33m - Day [0m[33m{[0mselected_day[33m}[0m[33m"[0m)            [31m [0m
+[31m [0m   [2m589 [0m[2m│   │   │   [0m                                                                   [31m [0m
+[31m [0m   [2m590 [0m[2m│   │   │   [0m[2m# Get image bytes[0m                                                  [31m [0m
+[31m [0m [31m❱ [0m591 [2m│   │   │   [0mimage_bytes = [1;4msample_images[selected_domain][selected_day][0m         [31m [0m
+[31m [0m   [2m592 [0m[2m│   │   │   [0m                                                                   [31m [0m
+[31m [0m   [2m593 [0m[2m│   │   │   [0m[2m# Image processing options[0m                                         [31m [0m
+[31m [0m   [2m594 [0m[2m│   │   │   [0mfilter_options = [[33m"[0m[33mNo Filter[0m[33m"[0m, [33m"[0m[33mGrayscale[0m[33m"[0m, [33m"[0m[33mSepia[0m[33m"[0m, [33m"[0m[33mInvert[0m[33m"[0m, [33m"[0m[33mBl[0m [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mKeyError: [0m[1;36m1[0m
+  Stopping...
